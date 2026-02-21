@@ -31,7 +31,7 @@ class DevopsJavaAppApplicationTests {
     void testGetUserById() {
         User user = userService.getUserById(1L);
         assertNotNull(user);
-        assertEquals("John Doe", user.getName());
+        assertEquals("Updated Name", user.getName());
     }
 
     @Test
